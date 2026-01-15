@@ -4,14 +4,14 @@
 2. Upload thư mục **./repo** lên server của bạn.
 3. Chỉnh sửa file **./repo/agent.env** để nhập thông tin kết nối database. Lưu ý: sử dụng tài khoản có quyền đọc dữ liệu từ database Fast Accounting.
 4. Cài đặt Docker và Docker Compose trên server
-   ``` $ cd ./repo
-   $ apt update
-   $ apt install docker.io
-   $ apt install docker-compose-plugin ```
+	``` $ cd ./repo
+	$ apt update
+	$ apt install docker.io
+	$ apt install docker-compose-plugin ```
 5. Build và chạy agent
-   ``` $ docker compose build
-   $ docker compose up -d ```
+	``` $ docker compose build
+	$ docker compose up -d ```
 6. Để dừng agent
-   ``` $ docker compose down ```
+	``` $ docker compose down ```
 7. Kiểm tra danh sách bên trái để xem raw data đã tải lên Data Suite chưa. Khi nút "Kích hoạt Pipeline" sáng, hệ thống đã sẵn sàng thông luồng.
 8. Nhấn "Kích hoạt Pipeline" để chạy ETL và xem dữ liệu thực tế xuất hiện trên báo cáo.

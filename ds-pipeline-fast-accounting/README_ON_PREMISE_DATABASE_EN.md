@@ -3,7 +3,7 @@ To enable Data Suite to display your actual data on reports, you need to install
 1. Click "Download Agent Code" above, extract it to get the **./repo** folder.
 2. Upload the **./repo** folder to your server.
 3. Edit the file **./repo/agent.env** to add database connection details. Note: use an account with read permissions on the Fast Accounting database.
-4. Install Docker and Docker Compose on the server
+4. Install Docker and Docker Compose on the server 
 	``` $ cd ./repo
 	$ apt update
 	$ apt install docker.io
